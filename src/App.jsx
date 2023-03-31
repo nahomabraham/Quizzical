@@ -2,6 +2,8 @@ import React from "react"
 
 export default function App(){
     return (
-        <h1>Quizzical</h1>
+        <main>
+            <img src="./assets/intro-background.png" alt="" />
+        </main>
     )
 }
