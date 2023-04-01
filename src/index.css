@@ -3,6 +3,17 @@
     box-sizing: border-box;
 }
 
+button {
+    font-family: Inter, sans-serif;
+    color: white;
+    background: #4D5B9E;
+}
+
+hr {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 body {
     margin: 0;
     padding: 20px;
@@ -15,34 +26,57 @@ main {
     margin: auto;
     width: 550px;
     height: 550px;
-    background-image: url("./assets/intro-background.png");
     background-size: cover;
     border-radius: 10px;
     box-shadow: 0px 10px 10px 5px darkgray;
     display: flex;
-    flex-direction: column;
+    flex-direction: column;      
+}
+
+
+
+.home {
+    background-image: url("./assets/intro-background.png");
     align-items: center;
     justify-content: center;
     gap: 7px;
 }
 
-.main-title {
+.home-title {
     font-weight: 700;
     font-size: 31.25px;
 }
 
-.main-description {
+.home-description {
     font-family: Inter, sans-serif;
 }
 
-.main-start {
+.home-start {
     width: 193px;
-    height: 52px;
-    font-family: Inter, sans-serif;
+    height: 52px; 
     font-weight: 500;
-    color: white;
     margin-top: 22px;
-    background: #4D5B9E;
     border-radius: 15px;
+}
+
+.quiz {
+    background-image: url("./assets/main-background.png");
+    padding: 40px 75px 0px 75px;
 
 }
+
+.question-choices {
+    display: flex;
+    gap: 30px;
+}
+
+.quiz-check{
+    align-self: center;
+    width: 120px;
+    height: 35px;
+    font-weight: 600;
+    font-size: 10.25px;
+    margin-top: 22px;
+    border-radius: 10px;
+}
+
