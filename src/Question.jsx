@@ -5,10 +5,10 @@ export default function Question(){
         <div className="question">
             <div className="question-title">Question</div>
             <div className="question-choices">
-                <div>A</div>
-                <div>B</div>
-                <div>C</div>
-                <div>D</div>
+                <div className="choice">A</div>
+                <div className="choice">B</div>
+                <div className="choice">C</div>
+                <div className="choice">D</div>
             </div>
             <hr />
         </div>

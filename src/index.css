@@ -65,11 +65,52 @@ main {
 
 }
 
+.question-title {
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
 .question-choices {
     display: flex;
     gap: 30px;
 }
 
+.choice,
+.choice-clicked,
+.choice-correct,
+.choice-incorrect,
+.choice-rest{
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    font-size: 10.25px;
+    border: 1px solid #4D5B9E;
+    border-radius: 8px;
+    min-width: 65px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.choice-clicked {
+    background-color: #D6DBF5;
+}
+
+.choice-correct {
+    border: none;
+    background-color: #94D7A2;
+}
+
+.choice-incorrect {
+    border: none;
+    background-color: #F8BCBC;
+    opacity: 0.5;
+}
+
+.choice-rest{
+    opacity: 0.5;
+}
 .quiz-check{
     align-self: center;
     width: 120px;
