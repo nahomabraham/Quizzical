@@ -1,0 +1,33 @@
+
+[
+    [
+        {"isChosen": false, "id": 0},
+        {"isChosen": false, "id": 1},
+        {"isChosen": false, "id": 2},
+        {"isChosen": false, "id": 3}
+    ],
+    [
+        {"isChosen": false, "id": 4},
+        {"isChosen": false, "id": 5},
+        {"isChosen": false, "id": 6},
+        {"isChosen": false, "id": 7}
+    ],
+    [
+        {"isChosen": false, "id": 8},
+        {"isChosen": false, "id": 9},
+        {"isChosen": false, "id": 10},
+        {"isChosen": false, "id": 11}
+    ],
+    [
+        {"isChosen": false, "id": 12},
+        {"isChosen": false, "id": 13},
+        {"isChosen": false, "id": 14},
+        {"isChosen": false, "id": 15}
+    ],
+    [
+        {"isChosen": false, "id": 16},
+        {"isChosen": false, "id": 17},
+        {"isChosen": false, "id": 18},
+        {"isChosen": false, "id": 19}
+    ]
+]

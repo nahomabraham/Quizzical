@@ -1,11 +1,11 @@
 import React from "react";
 import Choice from "./Choice";
 
-export default function Question(){
+export default function Question(props){
 
     const choiceElements = []
     for (let i = 0; i < 4; i++) {
-        choiceElements.push(<Choice name={`choice ${i+1}`}/>);
+        choiceElements.push(<Choice choice={props.guess[i]} toggle={props.toggle} name={`choice ${i+1}`}/>);
         
     }
     return (
